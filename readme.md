@@ -4,6 +4,8 @@
 
 You'll need to have [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/) and a code editor like [Visual Studio Code](https://code.visualstudio.com/) installed.
 
+Clone this project using git.
+
 Install NPM modules with `npm install`
 
 Run the project with `npm start`
@@ -22,7 +24,7 @@ The aim of this task is to produce a profile listing component that uses the [Ra
 
 ## Submission
 
-Once complete, either push up your project on a new branch of the original project, prefixed with your initials (be aware this will be public), or push them up to a repository you've created on a git hosting platform of your choice.
+Once complete, push them up to a repository you've created on a git hosting platform of your choice.
 
 ## Designs
 
