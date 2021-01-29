@@ -24,7 +24,7 @@ The aim of this task is to produce a profile listing component that uses the [Ra
 
 ## Submission
 
-Once complete, push them up to a repository you've created on a git hosting platform of your choice.
+Once complete, push them up to a repository you've created on a git hosting platform of your choice. We will discuss the task and take a look at your submission in your interview.
 
 ## Designs
 
