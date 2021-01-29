@@ -38,12 +38,10 @@ You can show the profile details on a new page using React Router, in which you 
 
 You should use Styled Components for styling your components. You can find documentation for Styled Components [here]( https://styled-components.com/).
 
-**Optionally**, if you are familiar with [Rect Redux Sagas](https://redux-saga.js.org/), you can use them to handle app state. This is not required!
-
 ## API
 
 You should use the RandomUser API for this task. No signup or auth token is required. You can find the documentation for the API here https://randomuser.me/documentation.
 
 ## Assets
 
-You can find the assets in the `/public` folder. These will be accessible on `/static` when the development server is running. For example, `/public/icons/hat.svg` is accessible on `/static/icons/hat.svg`.
+You can find the assets in the `/public` folder. Webpack has been already set up for you with [file-loader](https://webpack.js.org/loaders/file-loader/) for images and [SVGR](https://github.com/gregberge/svgr) for SVG's. If you need an example, the `Example` component shows how you would import and use images and SVG's. 
