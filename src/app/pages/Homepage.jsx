@@ -1,19 +1,7 @@
 import React from 'react';
 import Example from 'Components/Example/Example';
 
-class Homepage extends React.Component {
-    render() {
-        return (
-            <>
-                <Example />
-            </>
-        );
-    }
-}
-
-// OR 
-
-const HomepageUsingHooks = () => {
+const Homepage = () => {
     return (
         <>
             <Example />
@@ -24,6 +12,5 @@ const HomepageUsingHooks = () => {
 export default Homepage;
 
 export { 
-    Homepage, 
-    HomepageUsingHooks
+    Homepage
 };
