@@ -45,3 +45,7 @@ You should use the RandomUser API for this task. No signup or auth token is requ
 ## Assets
 
 You can find the assets in the `/public` folder. Webpack has been already set up for you with [file-loader](https://webpack.js.org/loaders/file-loader/) for images and [SVGR](https://github.com/gregberge/svgr) for SVG's. If you need an example, the `Example` component shows how you would import and use images and SVG's. 
+
+# Have a question or issue?
+
+Submit a new issue in the issue tracker [here](https://gitlab.com/solent-university/public/solent-interview-project/-/issues).
