@@ -11,7 +11,7 @@ const Example = () => (
             Hello world :) Want to <PhoneSVG />?
         </HelloBox>
         <HelloBox $align="right">
-            Hello human :) Can do!
+            Hello :) Can do!
             <Image src={worldImageURL} alt="World" />
         </HelloBox>
     </Wrapper>
