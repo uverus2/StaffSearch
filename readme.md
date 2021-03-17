@@ -22,6 +22,7 @@ The aim of this task is to produce a profile listing component that uses the [Ra
 - It needs to match the designs given, be responsive, and use the assets provided.
 - Only needs to work in Chrome.
 - Do **not** use a CSS library such as Bootstrap.
+- Use [styled-components]( https://styled-components.com/) for component styling.
 
 ## Submission
 
