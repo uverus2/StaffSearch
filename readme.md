@@ -21,6 +21,7 @@ The aim of this task is to produce a profile listing component that uses the [Ra
 - When clicking one of the profile items, this needs to take the user to a new page or open a pop-up modal, that gives more details about the person they have clicked on.
 - It needs to match the designs given, be responsive, and use the assets provided.
 - Only needs to work in Chrome.
+- Do **not** use a CSS library such as Bootstrap.
 
 ## Submission
 
