@@ -1,10 +1,10 @@
 import React from 'react';
-import Example from 'Components/Example/Example';
+
 
 const Homepage = () => {
     return (
         <>
-            <Example />
+           <h1>Hello</h1>
         </>
     );
 };

@@ -6,8 +6,7 @@ const CONFIG = {
         __dirname: true
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.(js|jsx)$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
@@ -19,15 +18,13 @@ const CONFIG = {
             },
             {
                 test: /\.(gif|png|jpe?g)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[hash].[ext]',
-                            outputPath: 'static/images/'
-                        }
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[hash].[ext]',
+                        outputPath: 'static/images/'
                     }
-                ]
+                }]
             },
             {
                 test: /\.svg$/,
