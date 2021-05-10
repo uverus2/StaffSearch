@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from 'App/App';
 
-const client = (
+const client = ( 
     <BrowserRouter>
         <App />
     </BrowserRouter>
@@ -13,4 +13,3 @@ const client = (
 const appElement = document.getElementById('app');
 
 render(client, appElement);
-
