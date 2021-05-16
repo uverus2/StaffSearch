@@ -1,5 +1,6 @@
 import Home from 'Pages/Homepage';
 import Profile from 'Pages/Profile';
+import Errors from 'Pages/Errors';
 
 export default [{
         path: '/',
@@ -7,8 +8,13 @@ export default [{
         component: Home
     },
     {
-        path: '/profile',
+        path: '/profile/:id',
         exact: true,
         component: Profile
+    },
+    {
+        path: '*',
+        exact: false,
+        component: Errors
     }
 ];

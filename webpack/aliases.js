@@ -3,6 +3,8 @@ const path = require('path');
 module.exports = {
     App: path.resolve(__dirname, '../src/app/'),
     Components: path.resolve(__dirname, '../src/app/components/'),
+    Services: path.resolve(__dirname, '../src/services/'),
+    Store: path.resolve(__dirname, '../src/store/'),
     Core: path.resolve(__dirname, '../src/core/'),
     Global: path.resolve(__dirname, '../src/app/global/'),
     Pages: path.resolve(__dirname, '../src/app/pages/'),
