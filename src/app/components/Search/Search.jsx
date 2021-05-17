@@ -90,7 +90,7 @@ const Search = () => {
             <label htmlFor="person">Use the search box to get started</label>
             <InputWrap className="d-flex flex-d-row">
                 <input autoComplete="off" placeholder="Start typing..." className="b-radius-default" type="text" name="person" {...register('person')} />
-                <button area-label="Search Here">
+                <button aria-label="Search Here">
                     <SearchIcon alt="Search Button" />
                 </button>
             </InputWrap>

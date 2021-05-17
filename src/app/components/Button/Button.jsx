@@ -22,7 +22,7 @@ const ButtonElement = styled.button`
 function Button(props) {
     const { text, area, onClick } = props;
     return (
-        <ButtonElement className="b-radius-default" areaLabel={area} onClick={onClick}> {text} </ButtonElement>
+        <ButtonElement className="b-radius-default" aria-label={area} onClick={onClick}> {text} </ButtonElement>
     )
 }
 

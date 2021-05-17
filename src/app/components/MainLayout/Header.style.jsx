@@ -8,10 +8,6 @@ const mobile = ({ theme }) => theme.breakpoints.mobile;
 const tablet = ({ theme }) => theme.breakpoints.tablet;
 
 const backgroundImage = css`
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ), url(${Hero});
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -31,6 +27,10 @@ const backgroundImage = css`
 
 export const Wrapper = styled.header`
     ${backgroundImage}
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(${Hero});
     margin-top: -5px;
     min-height: 40vh;
     height:100%;
@@ -38,11 +38,16 @@ export const Wrapper = styled.header`
 
 export const FooterWrapper = styled.footer`
     ${backgroundImage}
-    height: 30vh;
+    background-position: center center;
+    height: 40vh;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
 
     h2{
         text-transform: uppercase;
-        white-space: nowrap;
     }
 
     h2,h5 {

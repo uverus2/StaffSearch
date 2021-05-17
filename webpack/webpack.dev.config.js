@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const merge = require('webpack-merge');
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 const CONFIG = {
     mode: 'development',
@@ -41,7 +42,8 @@ const CONFIG = {
                 from: path.resolve(__dirname, '../public'),
                 to: path.resolve(__dirname, '../dist/static')
             }
-        ])
+        ]),
+        new Dotenv(),
     ],
     devServer: {
         host: '0.0.0.0',

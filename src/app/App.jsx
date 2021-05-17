@@ -4,6 +4,7 @@ import Router from 'Routing/Router';
 import { ThemeProvider } from "styled-components";
 import { Helmet } from "react-helmet";
 
+
 //Resources
 import favicon from "Public/icons/favicon.ico";
 
@@ -27,7 +28,7 @@ import useUsers from "Services/useUsers";
 
 const AppRoot = () => {
     const { users, searchUsers, loading, errors, setErrors, loadMoreUsers, setSearchUsers } = useUsers();
-
+    
     return (
         <>  
             {/* Helmet is a useful library for adding head properties to react apps */}
