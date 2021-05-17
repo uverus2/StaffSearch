@@ -36,7 +36,7 @@ const SingleUserCard = (props) => {
                 </div>
                 <div>
                     <Phone alt="Phone Icon"/>
-                    <a target="_blank" title="You will call the selected user" href={`tel: ${user.phone}`}>{user.email}</a>
+                    <a target="_blank" title="You will call the selected user" href={`tel: ${user.phone}`}>{user.phone}</a>
                 </div>
             </OtherDetails>
             <MoreDetails className={`b-radius-default ${isOpen ? "expand" : "collapse"}`}>

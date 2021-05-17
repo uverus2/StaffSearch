@@ -44,8 +44,12 @@ const AppRoot = () => {
                         <Header />
                         <Error />
                         {/* Content */}
-                        {loading ? (<Spinner />) : (<Router loadMoreUsers={loadMoreUsers} />) }
-                        <Footer />
+                        {loading ? (<Spinner />) : (
+                            <>
+                                <Router loadMoreUsers={loadMoreUsers} />  
+                                <Footer />
+                            </>
+                        )}
                     </ThemeProvider>
                 </errorsContext.Provider>
             </usersContext.Provider>
